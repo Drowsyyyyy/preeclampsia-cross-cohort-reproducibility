@@ -1,0 +1,16 @@
+.venv/
+__pycache__/
+*.py[cod]
+.DS_Store
+Thumbs.db
+
+# Public source files are downloaded by scripts/00_download_data.py.
+data/raw/*
+!data/raw/.gitkeep
+
+# Processed expression matrices are reproducible but too large for Git.
+data/processed/*_expression.csv.gz
+
+# Temporary rendering and local logs.
+tmp/
+*.log

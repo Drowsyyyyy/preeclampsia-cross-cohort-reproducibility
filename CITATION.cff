@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If you reuse this workflow, cite this repository and the original GEO studies."
+title: "Cross-cohort evaluation of hypoxia, inflammation, and angiogenic dysfunction in human preeclampsia transcriptomes"
+type: software
+authors:
+  - family-names: Kim
+    given-names: Jungwon
+version: 1.0.0
+date-released: 2026-08-21
+license: MIT

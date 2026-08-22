@@ -1,0 +1,17 @@
+GSE75010_complete_dataset.csv.gz: https://ftp.ncbi.nlm.nih.gov/geo/series/GSE75nnn/GSE75010/suppl/GSE75010_complete_dataset.csv.gz
+GSE75010_family.soft.gz: https://ftp.ncbi.nlm.nih.gov/geo/series/GSE75nnn/GSE75010/soft/GSE75010_family.soft.gz
+GSE190971_Raw_gene_counts_matrix_PLAC.txt.gz: https://ftp.ncbi.nlm.nih.gov/geo/series/GSE190nnn/GSE190971/suppl/GSE190971_Raw_gene_counts_matrix_PLAC.txt.gz
+GSE190971_family.soft.gz: https://ftp.ncbi.nlm.nih.gov/geo/series/GSE190nnn/GSE190971/soft/GSE190971_family.soft.gz
+GSE204835_counts.csv.gz: https://ftp.ncbi.nlm.nih.gov/geo/series/GSE204nnn/GSE204835/suppl/GSE204835_Human_paraffin-embedded_placental_tissue_counts.csv.gz
+GSE204835_family.soft.gz: https://ftp.ncbi.nlm.nih.gov/geo/series/GSE204nnn/GSE204835/soft/GSE204835_family.soft.gz
+GSE177049_expression.xlsx: https://ftp.ncbi.nlm.nih.gov/geo/series/GSE177nnn/GSE177049/suppl/GSE177049_gene-miRNA-RNA_expression_data.xlsx
+GSE177049_family.soft.gz: https://ftp.ncbi.nlm.nih.gov/geo/series/GSE177nnn/GSE177049/soft/GSE177049_family.soft.gz
+GSE30186_family.soft.gz: https://ftp.ncbi.nlm.nih.gov/geo/series/GSE30nnn/GSE30186/soft/GSE30186_family.soft.gz
+GSE10588_family.soft.gz: https://ftp.ncbi.nlm.nih.gov/geo/series/GSE10nnn/GSE10588/soft/GSE10588_family.soft.gz
+GSE24129_family.soft.gz: https://ftp.ncbi.nlm.nih.gov/geo/series/GSE24nnn/GSE24129/soft/GSE24129_family.soft.gz
+GSE25906_family.soft.gz: https://ftp.ncbi.nlm.nih.gov/geo/series/GSE25nnn/GSE25906/soft/GSE25906_family.soft.gz
+GSE43942_family.soft.gz: https://ftp.ncbi.nlm.nih.gov/geo/series/GSE43nnn/GSE43942/soft/GSE43942_family.soft.gz
+GSE4707_family.soft.gz: https://ftp.ncbi.nlm.nih.gov/geo/series/GSE4nnn/GSE4707/soft/GSE4707_family.soft.gz
+GSE44711_family.soft.gz: https://ftp.ncbi.nlm.nih.gov/geo/series/GSE44nnn/GSE44711/soft/GSE44711_family.soft.gz
+Homo_sapiens.gene_info.gz: https://ftp.ncbi.nlm.nih.gov/gene/DATA/GENE_INFO/Mammalia/Homo_sapiens.gene_info.gz
+MSigDB_Hallmark_2020.gmt: https://maayanlab.cloud/Enrichr/geneSetLibrary?mode=text&libraryName=MSigDB_Hallmark_2020

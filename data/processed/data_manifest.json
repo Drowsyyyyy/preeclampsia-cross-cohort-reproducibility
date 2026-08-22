@@ -1,0 +1,272 @@
+{
+  "cohort_counts": [
+    {
+      "cohort_id": "GSE10588",
+      "group": "Control",
+      "n_primary": 26,
+      "n_records": 26,
+      "role": "historical_internal_replication"
+    },
+    {
+      "cohort_id": "GSE10588",
+      "group": "PE",
+      "n_primary": 17,
+      "n_records": 17,
+      "role": "historical_internal_replication"
+    },
+    {
+      "cohort_id": "GSE177049",
+      "group": "Control",
+      "n_primary": 0,
+      "n_records": 5,
+      "role": "exploratory_paired_mrna_mirna"
+    },
+    {
+      "cohort_id": "GSE177049",
+      "group": "PE",
+      "n_primary": 0,
+      "n_records": 5,
+      "role": "exploratory_paired_mrna_mirna"
+    },
+    {
+      "cohort_id": "GSE190971",
+      "group": "Control",
+      "n_primary": 6,
+      "n_records": 6,
+      "role": "external_replication"
+    },
+    {
+      "cohort_id": "GSE190971",
+      "group": "PE",
+      "n_primary": 7,
+      "n_records": 7,
+      "role": "external_replication"
+    },
+    {
+      "cohort_id": "GSE204835",
+      "group": "Chronic_hypertension",
+      "n_primary": 0,
+      "n_records": 13,
+      "role": "external_replication"
+    },
+    {
+      "cohort_id": "GSE204835",
+      "group": "Control",
+      "n_primary": 12,
+      "n_records": 12,
+      "role": "external_replication"
+    },
+    {
+      "cohort_id": "GSE204835",
+      "group": "PE",
+      "n_primary": 12,
+      "n_records": 16,
+      "role": "external_replication"
+    },
+    {
+      "cohort_id": "GSE204835",
+      "group": "Superimposed_PE",
+      "n_primary": 0,
+      "n_records": 7,
+      "role": "external_replication"
+    },
+    {
+      "cohort_id": "GSE24129",
+      "group": "Control",
+      "n_primary": 8,
+      "n_records": 8,
+      "role": "historical_internal_replication"
+    },
+    {
+      "cohort_id": "GSE24129",
+      "group": "FGR_other",
+      "n_primary": 0,
+      "n_records": 8,
+      "role": "historical_internal_replication"
+    },
+    {
+      "cohort_id": "GSE24129",
+      "group": "PE",
+      "n_primary": 8,
+      "n_records": 8,
+      "role": "historical_internal_replication"
+    },
+    {
+      "cohort_id": "GSE25906",
+      "group": "Control",
+      "n_primary": 37,
+      "n_records": 37,
+      "role": "historical_internal_replication"
+    },
+    {
+      "cohort_id": "GSE25906",
+      "group": "PE",
+      "n_primary": 23,
+      "n_records": 23,
+      "role": "historical_internal_replication"
+    },
+    {
+      "cohort_id": "GSE30186",
+      "group": "Control",
+      "n_primary": 6,
+      "n_records": 6,
+      "role": "historical_internal_replication"
+    },
+    {
+      "cohort_id": "GSE30186",
+      "group": "PE",
+      "n_primary": 6,
+      "n_records": 6,
+      "role": "historical_internal_replication"
+    },
+    {
+      "cohort_id": "GSE43942",
+      "group": "Control",
+      "n_primary": 7,
+      "n_records": 7,
+      "role": "historical_internal_replication"
+    },
+    {
+      "cohort_id": "GSE43942",
+      "group": "PE",
+      "n_primary": 5,
+      "n_records": 5,
+      "role": "historical_internal_replication"
+    },
+    {
+      "cohort_id": "GSE44711",
+      "group": "Control",
+      "n_primary": 8,
+      "n_records": 8,
+      "role": "historical_internal_replication"
+    },
+    {
+      "cohort_id": "GSE44711",
+      "group": "PE",
+      "n_primary": 8,
+      "n_records": 8,
+      "role": "historical_internal_replication"
+    },
+    {
+      "cohort_id": "GSE4707",
+      "group": "Control",
+      "n_primary": 4,
+      "n_records": 4,
+      "role": "historical_internal_replication"
+    },
+    {
+      "cohort_id": "GSE4707",
+      "group": "PE",
+      "n_primary": 10,
+      "n_records": 10,
+      "role": "historical_internal_replication"
+    },
+    {
+      "cohort_id": "GSE75010_BioBank157",
+      "group": "Control",
+      "n_primary": 77,
+      "n_records": 77,
+      "role": "discovery"
+    },
+    {
+      "cohort_id": "GSE75010_BioBank157",
+      "group": "PE",
+      "n_primary": 80,
+      "n_records": 80,
+      "role": "discovery"
+    }
+  ],
+  "files": [
+    {
+      "bytes": 33451542,
+      "path": "data/raw/GSE10588_family.soft.gz",
+      "sha256": "f4e401aa940c19700232798159101470703b7f3c4c0393e2d04bbfa1518e1ce9"
+    },
+    {
+      "bytes": 14576253,
+      "path": "data/raw/GSE177049_expression.xlsx",
+      "sha256": "c882ad47d8f64c9c84cf3b643418518ee0f4839087c987ecd3205096557847d1"
+    },
+    {
+      "bytes": 3821,
+      "path": "data/raw/GSE177049_family.soft.gz",
+      "sha256": "3470196e0c93f8a0b347036a5ea7d369888ba4bb5b69a549df56d7dfbf8c800d"
+    },
+    {
+      "bytes": 6908,
+      "path": "data/raw/GSE190971_family.soft.gz",
+      "sha256": "e8b28edf442476e9b63d089c5d9665e61576a1b70cd3acb7670a499ddbb450cc"
+    },
+    {
+      "bytes": 404235,
+      "path": "data/raw/GSE190971_Raw_gene_counts_matrix_PLAC.txt.gz",
+      "sha256": "d2c794f403c5905995b11da480ac10185b4f388fc128b53e5451e27cfab8d831"
+    },
+    {
+      "bytes": 829376,
+      "path": "data/raw/GSE204835_counts.csv.gz",
+      "sha256": "c750be14489e2a67dff13030374e73a1e2a77752152780b3bcec5d34a20840b5"
+    },
+    {
+      "bytes": 4426,
+      "path": "data/raw/GSE204835_family.soft.gz",
+      "sha256": "05f557912258a91a8e8934f0a5d7da8cad57139eee6525f8b7d2d96b8bc71622"
+    },
+    {
+      "bytes": 16251495,
+      "path": "data/raw/GSE24129_family.soft.gz",
+      "sha256": "8aeb1ed9960f4416439860decf0ebfa2ef9c2b2290d8ed4f7ab52bd91c1434d5"
+    },
+    {
+      "bytes": 40118193,
+      "path": "data/raw/GSE25906_family.soft.gz",
+      "sha256": "23890acf61b803b9d28a02d936b337a5e138c1b5a8a63b5d303b27741fb24a35"
+    },
+    {
+      "bytes": 24317019,
+      "path": "data/raw/GSE30186_family.soft.gz",
+      "sha256": "aa3b686c03302eab6ca46c6f986325507a79f0e0201c3d5fbde88bf5c9e3d4f4"
+    },
+    {
+      "bytes": 4541516,
+      "path": "data/raw/GSE43942_family.soft.gz",
+      "sha256": "9b4c6e2765f36473c76dbb6538aceaec359479182dcef271054190a122a1ab92"
+    },
+    {
+      "bytes": 23146747,
+      "path": "data/raw/GSE44711_family.soft.gz",
+      "sha256": "3c3c72fe37463b8663c2bfc4d94326fafbf1b28fe6b8d88d7c7c60ede76fcebe"
+    },
+    {
+      "bytes": 16522984,
+      "path": "data/raw/GSE4707_family.soft.gz",
+      "sha256": "a80af6aec43baacf7712b1986ccb29d11496375910d95311f4428cd916666614"
+    },
+    {
+      "bytes": 34204908,
+      "path": "data/raw/GSE75010_complete_dataset.csv.gz",
+      "sha256": "fcbd8cbf0ddd6d965f70e267bcbf1d8e615e71aad647e08596bf4743c447c724"
+    },
+    {
+      "bytes": 55200059,
+      "path": "data/raw/GSE75010_family.soft.gz",
+      "sha256": "076f63297d848b70fe1a759e7ffcbecd343491873b6af62bd3e78ba83bce2def"
+    },
+    {
+      "bytes": 5179376,
+      "path": "data/raw/Homo_sapiens.gene_info.gz",
+      "sha256": "0d7e7e45d449e8d725a4e52fb108034b97a884bbf9df71af906f4577353ef508"
+    },
+    {
+      "bytes": 44235,
+      "path": "data/raw/MSigDB_Hallmark_2020.gmt",
+      "sha256": "4275592957a1587652092bb398cf77216fde5b8daa2aedaa0e016f7d10bbdb81"
+    }
+  ],
+  "notes": {
+    "GSE204835_metadata_discrepancy": "The GEO series summary states 11 term and 5 preterm de novo PE, while current sample-level SOFT fields label 12 term and 4 preterm; this workflow follows sample-level fields and records the discrepancy.",
+    "GSE204835_primary": "Term de novo PE versus term normotensive controls; other hypertensive groups are sensitivity-only.",
+    "GSE75010": "The integrated matrix has 330 columns; only the 157 RCWIH BioBank samples are discovery data.",
+    "historical": "The seven imported studies sum to 173 selected PE/control samples and are not external validation."
+  }
+}

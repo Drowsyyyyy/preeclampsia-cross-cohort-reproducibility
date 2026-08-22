@@ -1,0 +1,95 @@
+project_title: Cross-cohort evaluation of hypoxia, inflammation, and angiogenic dysfunction in human preeclampsia transcriptomes
+plan_frozen_before_outcome_analysis: true
+plan_version: 1.0
+analysis_date: 2026-08-21
+
+question: >-
+  To what extent are placental transcriptomic patterns in independent human
+  preeclampsia cohorts compatible with the hypoxia/HIF-1/Twist1/miR-214/PlGF
+  and inflammation/NF-kB/miR-31/155/eNOS mechanisms described in prior work?
+
+cohorts:
+  discovery:
+    id: GSE75010_BioBank157
+    n_expected: 157
+    contrast: PE versus non-PE
+    model: expression ~ PE + gestational_age_weeks + fetal_sex + chronic_hypertension
+  historical_internal_replication:
+    ids: [GSE30186, GSE10588, GSE24129, GSE25906, GSE43942, GSE4707, GSE44711]
+    note: These samples are already embedded in GSE75010 and are not external validation.
+  external_replication:
+    GSE190971:
+      contrast: all placental PE versus normal pregnancy
+      model: expression ~ PE
+      sensitivity: expression ~ PE + gestational_age_weeks
+    GSE204835:
+      contrast: term de novo PE versus term normotensive control
+      model: expression ~ PE
+      sensitivity: all de novo PE versus controls with gestational-age category adjustment
+  exploratory:
+    GSE177049: paired mRNA/miRNA profiles from 5 early-onset PE and 5 preterm controls
+
+primary_pathways:
+  - Hypoxia
+  - TNF-alpha Signaling via NF-kB
+  - Angiogenesis
+  - Inflammatory Response
+  - Epithelial Mesenchymal Transition
+
+target_genes:
+  - HIF1A
+  - TWIST1
+  - DNM3OS
+  - PGF
+  - FLT1
+  - ENG
+  - VEGFA
+  - KDR
+  - NOS3
+  - NFKB1
+  - RELA
+  - TNF
+  - IL1B
+  - SERPINE1
+  - EDN1
+
+curated_gene_sets:
+  PROANGIOGENIC_SUPPORT:
+    [PGF, VEGFA, KDR, TEK, ANGPT1, NOS3]
+  ANTIANGIOGENIC_VASCULAR_STRESS:
+    [FLT1, ENG, SERPINE1, EDN1, F3]
+  ENDOTHELIAL_NO_SIGNALING:
+    [NOS3, GUCY1A1, GUCY1B1, PRKG1, KLF2, KLF4]
+  HIF1_TWIST1_MIR214_HOST_AXIS:
+    [HIF1A, TWIST1, DNM3OS]
+  EXTRAVILLOUS_TROPHOBLAST_INVASION:
+    [HLA-G, ITGA1, MMP2, MMP9, NOTCH2, ASCL2]
+
+cell_composition_proxies:
+  ENDOTHELIAL_MARKERS:
+    [PECAM1, VWF, EMCN, KDR, ESAM, CDH5, ENG, RAMP2]
+  GENERAL_TROPHOBLAST_MARKERS:
+    [KRT7, GATA3, TFAP2C, EGFR, TEAD4]
+  EXTRAVILLOUS_TROPHOBLAST_MARKERS:
+    [HLA-G, ITGA1, MMP2, NOTCH2, ASCL2]
+  SYNCYTIOTROPHOBLAST_MARKERS:
+    [CGA, CGB3, ERVW-1, SDC1, GCM1]
+
+statistics:
+  discovery_gene_level: ordinary_least_squares_on_log2_expression
+  rna_seq_normalization: median_ratio_size_factors_then_log2_normalized_count_plus_0.5
+  multiple_testing: Benjamini-Hochberg FDR
+  primary_gene_fdr: 0.05
+  pathway_scores: mean within-cohort z-score across measured member genes
+  meta_analysis: DerSimonian-Laird random effects on within-cohort standardized effects
+  negative_controls:
+    matched_random_gene_sets: 500
+    outcome_label_permutations: 500
+    random_seed: 20240821
+
+interpretation_limits:
+  - Bulk mRNA data generally do not measure mature miR-31, miR-155, or miR-214.
+  - HIF1A mRNA abundance is not equivalent to HIF-1alpha protein activity.
+  - Gene-level FLT1 expression does not necessarily isolate the soluble sFlt-1 isoform.
+  - miR-214 directly targeting eNOS is supported chiefly for mouse eNOS; human direct-target evidence is stronger for miR-31 and miR-155.
+  - Association and pathway compatibility do not establish causality, diagnostic utility, or treatment benefit.

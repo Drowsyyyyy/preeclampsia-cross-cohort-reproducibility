@@ -1,0 +1,26 @@
+{
+  "discovery_significant_genes_fdr_0_05": 4361,
+  "independent_cohorts": {
+    "GSE190971": {
+      "n_gene_sets": 10,
+      "n_genes": 14415,
+      "n_samples": 13
+    },
+    "GSE204835_term": {
+      "n_gene_sets": 10,
+      "n_genes": 13470,
+      "n_samples": 24
+    },
+    "GSE75010_BioBank157": {
+      "n_gene_sets": 9,
+      "n_genes": 14651,
+      "n_samples": 157
+    }
+  },
+  "independent_meta_significant_genes_fdr_0_05": 2717,
+  "independent_meta_significant_pathways_fdr_0_05": 5,
+  "negative_control_iterations_per_set": {
+    "label_permutation": 500,
+    "matched_random": 500
+  }
+}
