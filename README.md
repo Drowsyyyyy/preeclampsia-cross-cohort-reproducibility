@@ -166,12 +166,10 @@ The download script retrieves the official public files and verifies them
 against the retained source manifest. Raw files and processed expression
 matrices are intentionally excluded from Git.
 
-### 3. Run the analysis and build the report
-
+### 3. Run the analysis
 ```powershell
 .\.venv\Scripts\python.exe scripts\02_run_analysis.py
 .\.venv\Scripts\python.exe scripts\03_make_figures.py
-.\.venv\Scripts\python.exe scripts\04_build_report.py
 .\.venv\Scripts\python.exe scripts\99_quality_checks.py
 ```
 
@@ -226,9 +224,6 @@ cell-composition measurements, and a prespecified assay and analysis plan.
 This repository is a retrospective portfolio publication. Git was not used
 prospectively throughout the original analysis, and the commit history begins
 with the portfolio publication.
-
-The repository does not imply faculty supervision. Any academic description
-must reflect the work, understanding, and supervision that actually occurred.
 
 ## License and source terms
 
