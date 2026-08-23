@@ -141,11 +141,10 @@ not establish miRNA regulation or causality.
 | `scripts/01_prepare_data.py` | Reconcile phenotypes, platforms, and expression matrices |
 | `scripts/02_run_analysis.py` | Cohort models, meta-analysis, sensitivity analyses, and controls |
 | `scripts/03_make_figures.py` | Generate retained figures |
-| `scripts/04_build_report.py` | Build the English PDF report |
 | `scripts/99_quality_checks.py` | Full source, cohort, result, and artifact-integrity checks |
 | `results/tables/` | Meta-analysis, sensitivity, miRNA, and negative-control tables |
 | `results/figures/` | Main result figures |
-| `output/pdf/` | Complete English research report |
+| `output/pdf/` | Complete research report |
 
 ## Reproduce
 
